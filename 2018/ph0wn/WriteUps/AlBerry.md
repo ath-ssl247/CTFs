@@ -38,7 +38,7 @@ Sachant que ce challenge est dans la catégorie exploit, nous devinons que la m�
 
 Afin de confirmer notre idée, nous envoyons comme payload l'adresse mémoire où se trouve la lecture du flag ```0x00011578```.
 
-Comme nous agisons ici en aveugle, nous avons décidé d'envoyer l'adresse multiplié un certain nombre de fois afin d'éviter de connaitre le nombre exacte de caractère permettant l'écrassement de l'adresse de retour.
+Comme nous agissons ici en aveugle, nous avons décidé d'envoyer l'adresse de lecture du flag multiplié un certain nombre de fois afin d'éviter de connaitre le nombre exacte de caractère permettant l'écrasement de l'adresse de retour.
 
 ![Image](Screen/011.png)
 
